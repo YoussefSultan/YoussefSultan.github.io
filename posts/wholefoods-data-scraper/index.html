@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>Scraping Live Whole Foods &#39;On-Sale&#39; Product Insights &#43; Recommendation System using Collaborative Filtering | Youssef Sultan&#39;s Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="" />
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://youssefsultan.github.io/css/main.css">
+        
+        <link rel="icon" href="/images/YSLOGO.png">
+        
+        
+    </head>
+    <body class="palette-blue">
+        
+        <div id="page" class="site">
+        
+          
+
+  
+    
+    <header id="masthead" class="site-header">
+  
+  <div id="header-bg" class="site-header-bg" style="background-image:url('/images/Background.png')"></div>
+  
+  <div class="site-header-scroll">
+    <div class="site-header-inside">
+      <div class="site-header-vertical">
+        <div class="site-branding">
+  
+  <p class="site-logo">
+    <a href='/'><img src="/images/LOGOW.png" alt="YS Logo" /></a>
+  </p>
+  
+  
+  <p class="site-title"><a href='/'>Youssef Sultan</a></p>
+  
+  
+  <p class="site-description">Youssef Sultan</p>
+  
+</div>
+
+        
+<nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+  <div class="site-nav-wrap">
+    <div class="site-nav-inside">
+
+      
+      <ul class="menu">
+        
+          
+          
+          <li class="menu-item current-menu-item">
+            <a href="/"
+              
+              >Home</a>
+          </li>
+        
+          
+          
+          <li class="menu-item">
+            <a href="/about"
+              
+              >About</a>
+          </li>
+        
+      </ul>
+      
+
+      
+      <div class="social-links">
+        
+        
+        <a href="https://github.com/youssefsultan"
+           target="_blank"
+           rel="noopener "
+          class="button-circle">
+          
+            
+            
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+  
+</svg>
+
+            <span class="screen-reader-text">GitHub</span>
+          
+        </a>
+        
+        
+        
+        <a href="https://www.linkedin.com/in/youssefsultan"
+           target="_blank"
+           rel="noopener "
+          class="button-circle">
+          
+            
+            
+<svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  
+  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+  
+</svg>
+
+            <span class="screen-reader-text">LinkedIn</span>
+          
+        </a>
+        
+        
+      </div>
+      
+
+    </div>
+  </div>
+</nav>
+<button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+
+
+      </div>
+    </div>
+  </div>
+</header>
+
+  
+
+  <div id="content" class="site-content">
+    <main id="main" class="site-main inner">
+
+      <article class="post post-full">
+        <header class="post-header">
+          <h1 class="post-title">Scraping Live Whole Foods &#39;On-Sale&#39; Product Insights &#43; Recommendation System using Collaborative Filtering</h1>
+          <div class="post-meta">
+            Published on <time class="published"
+              datetime="2022-03-04 00:00">March 04, 2022</time>
+          </div>
+        </header>
+        
+        <div class="post-content">
+          <p>Whole Foods is a grocery store chain that specializes in selling organic foods. Many people who shop at Whole Foods have opted in for Amazon Prime memberships in order to make the most out of their shopping and achieve the best deals amongst all different types of products sold. The one downside is that the Whole Foods website is pretty limited, in that it only shows the highest priced items and lowest priced items on-sale when filtering which doesn&rsquo;t give the customer much information about everything on-sale at their store as a whole.</p>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/sort.gif" alt="conv"> </br></p>
+<h6 id="pulling-users-whole-foods-store-data">Pulling user&rsquo;s Whole Foods store data:</h6>
+<p>In order to solve this problem, I created a webscraper using selenium that scrapes Whole Foods website on-sale product data allowing the customer to know the quantity of items on sale at their Whole Foods, which categories are on sale the most, which categories have the highest discounts and their ranges, and many other insights that help the customer know which products have the highest discounts pertaining to their zipcode.</p>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/scrape_animation.gif" alt=""></p>
+<h6 id="visualizing-store-insights">Visualizing store insights:</h6>
+<p>This allows customers/users to search their store &lsquo;on-sale&rsquo; data before shopping to see if the product(s) they are looking for happen to be discounted, and if so which of those products have the highest discounts. This is able to be done manually through a dataset search feature, after the user has queried their own store data, or through a cart generator feature.</p>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/query_animation.gif" alt=""></p>
+<h6 id="generate-shopping-cart">Generate shopping cart:</h6>
+<p>The cart generator feature generates a shopping cart of items &lsquo;on-sale/discounted&rsquo; based on user keyword inputs (&lsquo;chocolate, pasta&rsquo;&hellip;) and selected optimization parameter (&lsquo;random, price, discount&rsquo;). If no parameter is selected, any generated cart with pick a random selection of the user&rsquo;s input from the data.</p>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/generate_cart.gif" alt=""></p>
+<p>So for &lsquo;chocolate&rsquo;, if any type of chocolate exists at the user&rsquo;s Whole Foods and is On-Sale, it will pick a random one and put it in your cart. As for the price optimization parameter, this picks the chocolate with the lowest price possible rather than random, and for the highest discount, it makes sure the item has the highest prime discount percentage. (<strong>remember all items in any queried dataset are ONLY on-sale/discounted</strong>)</p>
+<h6 id="recommendation-system">Recommendation system:</h6>
+<p>I also felt that when I was checking out at Whole Foods normally, I really wanted recommendations or suggestions based on what I usually purchase to try something new but I also wanted those recommendations to be &lsquo;on-sale/discounted&rsquo;, so I constructed a collaborative filtering based recommendation system approach that uses Instacart&rsquo;s customer data and item associations to make suggestions to Whole Foods users when having a generated shopping cart.</p>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/recommend.gif" alt=""></p>
+<p>Based on what is in your shopping cart, say you typed &ldquo;almondmilk, chocolate&rdquo; and now you have the lowest priced almondmilk and chocolate in your cart, the recommendation button will recommend one item for each item in your cart based on association rules from Instacart&rsquo;s customers. This is very useful as it allows the user to have an amazing shopping experience by knowing which items are discounted, having a shopping cart tailored for them, and recommendations to try new things that are still &lsquo;on-sale&rsquo;</p>
+<p>There is also a feature that shows the price of your cart for prime members and non-prime members so there is no discrimination between the two.</p>
+<p>The link to the app is at the bottom of this page.</p>
+<h4 id="visual-of-app-features">Visual of app features:</h4>
+<p><a href="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_app_visual.png"><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_app_visual.png" alt=""></a></p>
+<h4 id="recommendation-system-approach">Recommendation system approach:</h4>
+<p><a href="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_cf_visual.png"><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/wf_cf_visual.png" alt=""></a></p>
+<p>More on this <a href="https://github.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/blob/main/README.md">here</a></p>
+<h4 id="exploratory-data-analysis-on-the-type-of-products-on-sale">Exploratory Data Analysis on the type of products on sale:</h4>
+<p><img src="https://raw.githubusercontent.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/main/visuals/eda.png" alt=""></p>
+<p>We can see that Prime members get an average discount of 28% off of on-sale items, while non-prime members get an average of 20% off on sale items.
+This shows that on average, Prime members get their products discounted by 8% more that regular customers. 
+We can also tell that most items that are featured on sale whether that be for non-prime members or prime members, are under $10</p>
+<p>For more information on the entirety of the project including algorithms used taxonomy design and signature matching, make sure to check out the links below which include the full source code on Github, end-to-end deployment and exploratory data analysis.</p>
+<p>Github: <a href="https://github.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/">Source Code</a></p>
+<p>Deployment: <a href="https://share.streamlit.io/youssefsultan/WholeFoods-datascraping-project-deployment/main/Deployment/streamlit_app.py">Streamlit Webapp</a></p>
+<p>Exploratory Data Analysis Notebooks: <a href="https://github.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/blob/main/Jupyter%20Notebooks/wholefoodsproject.ipynb">EDA</a> or <a href="https://github.com/YoussefSultan/WholeFoods-Datascraping-Project-Deployment/blob/main/Jupyter%20Notebooks/wholefoodsprojectv2.ipynb">EDA2</a></p>
+
+        </div>
+      </article>
+
+    </main>
+
+    <footer id="colophon" class="site-footer inner">
+  
+  <a id="to-top" class="to-top" href="#page">To top <span class="icon-arrow-up" aria-hidden="true"></span></a>
+</footer>
+
+
+  </div>
+
+
+        
+        </div>
+        
+        <script src="/js/plugins.js"></script>
+        <script src="/js/main.js"></script>
+    </body> 
+</html>
