@@ -2,62 +2,12 @@
 <html lang="en">
     <head>    
 
-        <title>About Me</title>
+        <title>quickpt Descriptive Statistics Python Package | Youssef Sultan&#39;s Portfolio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
-        <meta name="description" content="A page about me and my work" />
+        <meta name="description" content="" />
         
-        
-          
-          
-            <meta property="og:type" content="website">
-          
-        
-          
-          
-            <meta property="og:title" content="About Me">
-          
-        
-          
-          
-            <meta property="og:description" content="A page about me and my work">
-          
-        
-          
-          
-            
-              
-              
-              
-              <meta property="og:image" content="youssefsultan.github.io/images/about.jpg">
-            
-          
-        
-          
-          
-            <meta name="twitter:card" content="summary_large_image">
-          
-        
-          
-          
-            <meta name="twitter:title" content="About Me">
-          
-        
-          
-          
-            <meta name="twitter:description" content="A page about me and my work">
-          
-        
-          
-          
-            
-              
-              
-              
-              <meta name="twitter:image" content="youssefsultan.github.io/images/about.jpg">
-            
-          
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -74,7 +24,8 @@
           
 
   
-  <header id="masthead" class="site-header">
+    
+    <header id="masthead" class="site-header">
   
   <div id="header-bg" class="site-header-bg" style="background-image:url('/images/Background.png')"></div>
   
@@ -177,19 +128,69 @@
   </div>
 </header>
 
+  
 
   <div id="content" class="site-content">
     <main id="main" class="site-main inner">
 
-      <article class="post page post-full">
+      <article class="post post-full">
         <header class="post-header">
-          <h1 class="post-title">About Me</h1>
+          <h1 class="post-title">quickpt Descriptive Statistics Python Package</h1>
+          <div class="post-meta">
+            Published on <time class="published"
+              datetime="2022-06-04 00:00">June 04, 2022</time>
+          </div>
         </header>
         
         <div class="post-content">
-          <p>I am currently pursuing a Master&rsquo;s in Analytics at Georgia Institute of Technology. I am also currently working as an Analytics Manager at a contract research organization; during which I optimize code for production, create machine learning models and use statistical methods to enhance profitability, productivity and drive innovation through on-going projects.</p>
-<p>I come from a technical background that spans over 13 years which translated to business ownership and then applied data science in various industries. I integrate technology and business using data in a highly analytical and detail-oriented way. Whether that be from organized end-to-end implementation of ML or having the right computational approach beforehand. My business and technical background allow me to communicate solutions no matter how complex they get, as well as apply them.</p>
-<p>My current projects and interests revolve around seamless data preprocessing and wrangling as well as predictive modeling and inferential statistics as my niche, where I can not only help curate valuable insights using big data, but also lead the way for decision making when taking a product from proof-of-concept to production.</p>
+          <p><img src="https://github.com/YoussefSultan/quickpt/raw/main/Untitled-1.png?raw=true" alt="conv">
+This is a small Python Function that allows you to see the variance, percentage of missing values and unique values within a dataset!</p>
+<p><em>Installation instructions:</em></p>
+<p><code>pip install quickpt</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> quickpt.quickpt <span style="color:#f92672">import</span> quickpt
+quickpt(df, graph<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, encode<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">400</span>)
+</code></pre></div><p>or
+<code>!pip3 install quickpt</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> quickpt.quickpt <span style="color:#f92672">import</span> quickpt
+quickpt(df, graph<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, encode<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">400</span>)
+</code></pre></div><h2 id="quickpt-library">quickpt library</h2>
+<p>Creates a DataFrame showing the missing values, total unique values, data type, and variance of each feature.</p>
+<p>If the argument graph is passed, then a bar chart of the specified parameter is visualized.</p>
+<h2 id="parameters">Parameters</h2>
+<p>graph : var, null, uniq 
+(default is None)</p>
+<p>encode : True, False
+(default is True)</p>
+<p>width : int
+(default is 800)</p>
+<p>height : int
+(default is 400)</p>
+<h2 id="description-of-parameters">Description of Parameters</h2>
+<ul>
+<li>var = variance</li>
+<li>null = percent of missing values in decimal form</li>
+<li>uniq = sum of unique values</li>
+<li>encode &ndash;&gt; True = Uses LabelEncoder to encode categorical variables and receive summary statistics</li>
+<li>encode &ndash;&gt; False = Only shows DataFrame/Visualization of original numeric variables of input data</li>
+<li>width = update graph width</li>
+<li>height = update graph height</li>
+</ul>
+<h2 id="use">Use</h2>
+<ul>
+<li>Used on preprocessed datasets that have only numerical features</li>
+<li>If data has categorical features set encoder=True to temporarily LabelEncode categorical features to numeric :D</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/89711840/171681821-a6a79c9e-c466-4150-bbc2-63b963d209e5.png" alt="image"></p>
+<!-- CONTRIBUTING -->
+<h2 id="contributing">Contributing</h2>
+<p>Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are <strong>greatly appreciated</strong>.</p>
+<ol>
+<li><a href="https://github.com/YoussefSultan/quickpt">Fork</a> the Project</li>
+<li>Create your Feature Branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
+<li>Commit your Changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
+<li>Push to the Branch (<code>git push origin feature/AmazingFeature</code>)</li>
+<li>Open a Pull Request</li>
+</ol>
 
         </div>
       </article>
