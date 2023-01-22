@@ -2,12 +2,62 @@
 <html lang="en">
     <head>    
 
-        <title>quickpt Descriptive Statistics Python Package | Youssef Sultan&#39;s Portfolio</title>
+        <title>Youssef Sultan&#39;s Portfolio</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google" content="notranslate" />
-        <meta name="description" content="" />
+        <meta name="description" content="Machine Learning and Analytics Projects" />
         
+        
+          
+          
+            <meta property="og:type" content="website">
+          
+        
+          
+          
+            <meta property="og:title" content="Stackbit Fjord Theme">
+          
+        
+          
+          
+            <meta property="og:description" content="The preview of the Fjord theme">
+          
+        
+          
+          
+            
+              
+              
+              
+              <meta property="og:image" content="youssefsultan.github.io/images/home.jpg">
+            
+          
+        
+          
+          
+            <meta name="twitter:card" content="summary_large_image">
+          
+        
+          
+          
+            <meta name="twitter:title" content="Stackbit Fjord Theme">
+          
+        
+          
+          
+            <meta name="twitter:description" content="The preview of the Fjord theme">
+          
+        
+          
+          
+            
+              
+              
+              
+              <meta name="twitter:image" content="youssefsultan.github.io/images/home.jpg">
+            
+          
         
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -24,8 +74,7 @@
           
 
   
-    
-    <header id="masthead" class="site-header">
+  <header id="masthead" class="site-header">
   
   <div id="header-bg" class="site-header-bg" style="background-image:url('/images/Background.png')"></div>
   
@@ -136,72 +185,66 @@
   </div>
 </header>
 
-  
 
   <div id="content" class="site-content">
     <main id="main" class="site-main inner">
 
-      <article class="post post-full">
-        <header class="post-header">
-          <h1 class="post-title">quickpt Descriptive Statistics Python Package</h1>
-          <div class="post-meta">
-            Published on <time class="published"
-              datetime="2022-06-04 00:00">June 04, 2022</time>
-          </div>
-        </header>
+      <div class="post-feed">
         
-        <div class="post-content">
-          <p><img src="https://github.com/YoussefSultan/quickpt/raw/main/Untitled-1.png?raw=true" alt="conv">
-This is a small Python Function that allows you to see the variance, percentage of missing values and unique values within a dataset!</p>
-<p><em>Installation instructions:</em></p>
-<p><code>pip install quickpt</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> quickpt.quickpt <span style="color:#f92672">import</span> quickpt
-quickpt(df, graph<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, encode<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">400</span>)
-</code></pre></div><p>or
-<code>!pip3 install quickpt</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> quickpt.quickpt <span style="color:#f92672">import</span> quickpt
-quickpt(df, graph<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>, encode<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, width<span style="color:#f92672">=</span><span style="color:#ae81ff">800</span>, height<span style="color:#f92672">=</span><span style="color:#ae81ff">400</span>)
-</code></pre></div><h2 id="quickpt-library">quickpt library</h2>
-<p>Creates a DataFrame showing the missing values, total unique values, data type, and variance of each feature.</p>
-<p>If the argument graph is passed, then a bar chart of the specified parameter is visualized.</p>
-<h2 id="parameters">Parameters</h2>
-<p>graph : var, null, uniq 
-(default is None)</p>
-<p>encode : True, False
-(default is True)</p>
-<p>width : int
-(default is 800)</p>
-<p>height : int
-(default is 400)</p>
-<h2 id="description-of-parameters">Description of Parameters</h2>
-<ul>
-<li>var = variance</li>
-<li>null = percent of missing values in decimal form</li>
-<li>uniq = sum of unique values</li>
-<li>encode &ndash;&gt; True = Uses LabelEncoder to encode categorical variables and receive summary statistics</li>
-<li>encode &ndash;&gt; False = Only shows DataFrame/Visualization of original numeric variables of input data</li>
-<li>width = update graph width</li>
-<li>height = update graph height</li>
-</ul>
-<h2 id="use">Use</h2>
-<ul>
-<li>Used on preprocessed datasets that have only numerical features</li>
-<li>If data has categorical features set encoder=True to temporarily LabelEncode categorical features to numeric :D</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/89711840/171681821-a6a79c9e-c466-4150-bbc2-63b963d209e5.png" alt="image"></p>
-<!-- CONTRIBUTING -->
-<h2 id="contributing">Contributing</h2>
-<p>Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are <strong>greatly appreciated</strong>.</p>
-<ol>
-<li><a href="https://github.com/YoussefSultan/quickpt">Fork</a> the Project</li>
-<li>Create your Feature Branch (<code>git checkout -b feature/AmazingFeature</code>)</li>
-<li>Commit your Changes (<code>git commit -m 'Add some AmazingFeature'</code>)</li>
-<li>Push to the Branch (<code>git push origin feature/AmazingFeature</code>)</li>
-<li>Open a Pull Request</li>
-</ol>
-
-        </div>
-      </article>
+        
+        
+          
+          
+          <article class="post">
+            <header class="post-header">
+              <h2 class="post-title"><a href="/reports/p8/" rel="bookmark">Comparing the Performance of AI-Driven and Manual Stock Investment Strategies</a></h2>
+              <div class="post-meta">
+                Published on <time class="published"
+                  datetime="2022-11-22 00:00">November 22, 2022</time>
+              </div>
+            </header>
+            
+            <div class="post-content">
+              <p>An Empirical Study</p>
+			  <iframe src="https://docs.google.com/viewer?url=https%3a%2f%2fgithub.com%2fYoussefSultan%2fAcademicReports%2fraw%2fmain%2fp8_strategyEval_report-1%2520%281%29.pdf&embedded=true" width="600" height="780"></iframe>
+            </div>
+            
+          </article>
+          
+          <article class="post">
+            <header class="post-header">
+              <h2 class="post-title"><a href="/reports/p6/" rel="bookmark">Developing and Analyzing Financial Technical Indicators for an Efficient Trading Strategy</a></h2>
+              <div class="post-meta">
+                Published on <time class="published"
+                  datetime="2022-10-06 00:00">October 06, 2022</time>
+              </div>
+            </header>
+            
+            <div class="post-content">
+              <p>A Study on the JPM Stock</p>
+			  <iframe src="https://docs.google.com/viewer?url=https%3a%2f%2fgithub.com%2fYoussefSultan%2fAcademicReports%2fraw%2fmain%2fp6_indicatorsTOS_report%2520%282%29.pdf&embedded=true" width="600" height="780"></iframe>
+            </div>
+            
+          </article>
+          
+          <article class="post">
+            <header class="post-header">
+              <h2 class="post-title"><a href="/reports/p3/" rel="bookmark">Exploring the Discrepancies between Regression Decision Tree Models for Predictive Modeling</a></h2>
+              <div class="post-meta">
+                Published on <time class="published"
+                  datetime="2022-09-26 00:00">September 26, 2022</time>
+              </div>
+            </header>
+            
+            <div class="post-content">
+              <p>Uncovering the Differences in Predictive Accuracy</p>
+			  <iframe src="https://docs.google.com/viewer?url=https%3a%2f%2fgithub.com%2fYoussefSultan%2fAcademicReports%2fraw%2fmain%2fp3_assesslearners_report-1%2520%281%29.pdf&embedded=true" width="600" height="780"></iframe>
+            </div>
+            
+          </article>
+          
+        
+      </div>
 
     </main>
 
