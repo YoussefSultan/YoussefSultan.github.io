@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://youssefsultan.github.io/reports/pas/</loc>
+    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://youssefsultan.github.io/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://youssefsultan.github.io/reports/</loc>
-    <lastmod>2023-08-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://youssefsultan.github.io/reports/deeplearning/</loc>
+    <loc>https://youssefsultan.github.io/reports/dl/</loc>
     <lastmod>2023-08-03T00:00:00+00:00</lastmod>
   </url>
   
